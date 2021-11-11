@@ -13,7 +13,7 @@
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "dark" #"default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-classes: wide
+
 # Site Settings
 locale                   : "ko-KR"
 title                    : "개발자이고 싶은 개발자"
@@ -288,6 +288,8 @@ defaults:
       comments: # true
       share: true
       related: true
+      mathjax: true
+      sidebar_main: true
   # _pages                      : 해당 하단 영역이 새로 추가되었습니다.
   - scope:
       path: "_pages"
