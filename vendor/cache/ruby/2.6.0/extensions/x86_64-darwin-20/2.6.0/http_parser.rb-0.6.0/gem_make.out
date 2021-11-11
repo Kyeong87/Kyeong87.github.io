@@ -1,0 +1,16 @@
+current directory: /Users/we/Kyeong87.github.io/vendor/cache/ruby/2.6.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+/Users/we/.rbenv/versions/2.6.3/bin/ruby -I /Users/we/.rbenv/versions/2.6.3/lib/ruby/2.6.0 -r ./siteconf20211110-39021-137khm2.rb extconf.rb
+creating Makefile
+
+current directory: /Users/we/Kyeong87.github.io/vendor/cache/ruby/2.6.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR=" clean
+
+current directory: /Users/we/Kyeong87.github.io/vendor/cache/ruby/2.6.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR="
+compiling ruby_http_parser.c
+compiling ryah_http_parser.c
+linking shared-object ruby_http_parser.bundle
+
+current directory: /Users/we/Kyeong87.github.io/vendor/cache/ruby/2.6.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR=" install
+/usr/local/bin/ginstall -c -m 0755 ruby_http_parser.bundle ./.gem.20211110-39021-i3876c
