@@ -1,16 +1,16 @@
 ---
-title: "[github] 페이지 사이즈 커스텀"
-excerpt: "페이지 사이즈 커스텀 하는 방법! "
+title:  "[Github Blog] 드디어 오픈 했다"
 
 categories:
-- github 
-  tags:
-- [content]
-  
-  toc: true
-  toc_sticky: true
-  
-last_modified_at: 2021-11-11T18:00:00-05:00
+  - Github
+tags:
+  - [Blog, Github]
+
+toc: true
+toc_sticky: true
+ 
+date: 2011-11-11
+last_modified_at: 2011-11-11
 ---
 
 This post should not appear in the search index because it has the following YAML Front Matter:
