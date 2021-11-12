@@ -19,7 +19,7 @@
                 <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
                 {% for category in site.categories %}
                     {% if category[0] == "Github" %}
-                        <li><a href="/categories/github" class="">오픈 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/github" class="">Github Blog 생성 & 테마 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
