@@ -23,14 +23,14 @@ name                     : "갱이"
 description              : "An amazing website."
 url                      : "https://kyeong87.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "https://github.com/Kyeong87/Kyeong87.github.io"
+repository               : "Kyeong87/comments"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : "개발자이고 싶은 개발자"
 breadcrumbs            : true # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider               : "utterances" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -41,8 +41,8 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
   utterances:
-    theme                : # "github-light" (default), "github-dark"
-    issue_term           : # "pathname" (default)
+    theme                : "photon-dark" # "github-light" (default), "github-dark"
+    issue_term           : "pathname" # "pathname" (default)
   giscus:
     repo_id              : # Shown during giscus setup at https://giscus.app
     category_name        : # Full text name of the category
@@ -102,7 +102,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Park Yeon Kyeong"
+  name             : "갱이."
   avatar           : "/assets/images/me.jpeg"
   bio              : "끄적끄적"
   location         : "Republic of Korea"

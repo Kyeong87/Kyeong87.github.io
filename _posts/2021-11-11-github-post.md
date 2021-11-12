@@ -1,10 +1,10 @@
 ---
-title:  "[Github Blog] 블로그 생성 / jekyll 테마 적용"
+title:  "[Github Blog] 블로그 생성 & jekyll 테마 적용"
 
 categories:
   - Github
 tags:
-  - [Blog, Github]
+  - [Blog, Github, Jekyll]
 
 toc: true
 toc_sticky: true

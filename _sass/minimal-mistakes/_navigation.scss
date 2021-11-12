@@ -490,10 +490,10 @@
 
 .nav__sub-title {
   display: block;
-  margin: 0.5rem 0;
-  padding: 0.25rem 0;
+  margin: 0.8rem 0;
+  padding: 0.35rem 0;
   font-family: $sans-serif-narrow;
-  font-size: $type-size-6;
+  font-size: $type-size-5;
   font-weight: bold;
   text-transform: uppercase;
   border-bottom: 1px solid $border-color;
@@ -515,7 +515,7 @@
   .nav__title {
     color: #fff;
     font-size: $type-size-6;
-    background: $primary-color;
+    background: rgb(105, 103, 103); // $primary-color
     border-top-left-radius: $border-radius;
     border-top-right-radius: $border-radius;
   }
