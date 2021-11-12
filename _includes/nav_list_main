@@ -28,11 +28,15 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-        <span class="nav__sub-title">Coding Test</span>
+        {% for category in site.categories %}
+            {% if category[0] == "CodingTest" %}
+                <a href="/categories/codingtest"><span class="nav__sub-title">Coding Test ({{category[1].size}})</span>
+            {% endif %}
+        {% endfor %}
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Algorithm" %}
-                        <li><a href="/categories/algorithm" class="">알고리즘 구현 (with C++) ({{category[1].size}})</a></li>
+                    {% if category[0] == "CodingTest" %}
+                        <li><a href="/codingtest/coding-pro" class=""> STEP.1(해시) - 완주하지 못한 선수</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
