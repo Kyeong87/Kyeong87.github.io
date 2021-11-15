@@ -21,7 +21,7 @@ last_modified_at: 2011-11-12
     
 
 
-### :negative_squared_cross_mark: 답
+### :x: 답
 
 ```java
 import java.util.ArrayList;

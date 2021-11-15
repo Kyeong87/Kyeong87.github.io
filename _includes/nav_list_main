@@ -42,11 +42,27 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Programmers" %}
-                        <li><a href="/categories/programmers" class="">프로그래머스 ({{category[1].size}})</a></li>
+                    {% if category[0] == "CodingTest" %}
+                        <li><a href="/codingtest/coding-array" class="">STEP.1(정렬) - k번째수</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
       </li>
   </ul>
+    <span class="nav__sub-title">Study</span>
+    <ul>
+        {% for category in site.categories %}
+            {% if category[0] == "Java" %}
+                <li><a href="/categories/java" class="">Java ({{category[1].size}})</a></li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+    <ul>
+        {% for category in site.categories %}
+            {% if category[0] == "Spring" %}
+                <li><a href="/categories/spring" class="">Spring ({{category[1].size}})</a></li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+
 </nav>
