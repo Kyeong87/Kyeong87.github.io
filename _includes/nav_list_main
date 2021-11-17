@@ -64,5 +64,12 @@
             {% endif %}
         {% endfor %}
     </ul>
+    <ul>
+        {% for category in site.categories %}
+            {% if category[0] == "Intellij" %}
+                <li><a href="/categories/intellij" class="">Intellij ({{category[1].size}})</a></li>
+            {% endif %}
+        {% endfor %}
+    </ul>
 
 </nav>
