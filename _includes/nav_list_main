@@ -28,26 +28,22 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-        {% for category in site.categories %}
-            {% if category[0] == "CodingTest" %}
-                <a href="/categories/codingtest"><span class="nav__sub-title">Coding Test ({{category[1].size}})</span>
-            {% endif %}
-        {% endfor %}
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "CodingTest" %}
-                        <li><a href="/codingtest/coding-pro" class=""> STEP.1(해시) - 완주하지 못한 선수</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "CodingTest" %}
-                        <li><a href="/codingtest/coding-array" class="">STEP.1(정렬) - k번째수</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
       </li>
+  </ul>
+  <span class="nav__sub-title">Coding Test</span>
+  <ul>
+      {% for category in site.categories %}
+          {% if category[0] == "Programmers" %}
+              <li><a href="/categories/programmers" class="">프로그래머스 ({{category[1].size}})</a></li>
+          {% endif %}
+      {% endfor %}
+  </ul>
+  <ul>
+      {% for category in site.categories %}
+          {% if category[0] == "BOJ" %}
+              <li><a href="/categories/boj" class="">백준알고리즘(BOJ) ({{category[1].size}})</a></li>
+          {% endif %}
+      {% endfor %}
   </ul>
     <span class="nav__sub-title">Study</span>
     <ul>

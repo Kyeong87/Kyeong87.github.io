@@ -1,8 +1,8 @@
 ---
-title:  "[Coding Test] 1.STEP(해시) - 완주하지 못한 선수"
+title:  "[Programmers] 1.STEP(해시) - 완주하지 못한 선수"
 
 categories:
-  - CodingTest
+  - Programmers
 tags:
   - [Coding Test, Programmers]
 

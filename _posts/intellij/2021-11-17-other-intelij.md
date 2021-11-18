@@ -48,4 +48,4 @@ last_modified_at: 2011-11-17
 
 
 ### :sunny: 
-- 실행 해보면서 문제풀고 재출할때 옮겨야지 :thumbsup:
+- 실행 해보면서 문제풀어야지 :thumbsup:

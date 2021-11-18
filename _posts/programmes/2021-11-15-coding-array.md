@@ -1,8 +1,8 @@
 ---
-title:  "[Coding Test] 1.STEP(정렬) - k번째수"
+title:  "[Programmers] 1.STEP(정렬) - k번째수"
 
 categories:
-  - CodingTest
+  - Programmers
 tags:
   - [Coding Test, Programmers]
 
