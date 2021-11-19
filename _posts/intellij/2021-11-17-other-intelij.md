@@ -9,8 +9,8 @@ tags:
 toc: true
 toc_sticky: true
  
-date: 2011-11-17
-last_modified_at: 2011-11-17
+date: 2021-11-17
+last_modified_at: 2021-11-17
 ---
 
 ### :relieved:  
@@ -41,6 +41,7 @@ last_modified_at: 2011-11-17
 - src 밑에 java class 파일 생성 ->
 - 클레스 파일 안에 main 호출 작성 ->
 - command + option + R   
+- Scanner 사용시 하단 console 창에 입력값 쓰고 엔터로 활용 가능 !
 
 
 ![스크린샷 2021-11-17 오후 3 11 02](https://user-images.githubusercontent.com/93639793/142144602-26d81dec-2883-428f-92b6-e2209cab5afd.png)
@@ -48,4 +49,5 @@ last_modified_at: 2011-11-17
 
 
 ### :sunny: 
-- 실행 해보면서 문제풀어야지 :thumbsup:
+- 실행 해보면서 문제풀어야지 :thumbsup:  
+
