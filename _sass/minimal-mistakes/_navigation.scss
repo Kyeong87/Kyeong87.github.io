@@ -497,6 +497,7 @@
   font-weight: bold;
   text-transform: uppercase;
   border-bottom: 1px solid $border-color;
+  color : mix(#fff,$primary-color,30%);
 }
 
 /*
@@ -515,7 +516,8 @@
   .nav__title {
     color: #fff;
     font-size: $type-size-6;
-    background: rgb(105, 103, 103); // $primary-color
+    //background: rgb(105, 103, 103); // $primary-color
+    background: mix(#fff,$primary-color,30%);
     border-top-left-radius: $border-radius;
     border-top-right-radius: $border-radius;
   }
