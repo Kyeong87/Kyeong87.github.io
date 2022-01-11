@@ -48,8 +48,15 @@
     <span class="nav__sub-title">Study</span>
     <ul>
         {% for category in site.categories %}
-            {% if category[0] == "Java" %}
-                <li><a href="/categories/java" class="">Java ({{category[1].size}})</a></li>
+            {% if category[0] == "Intellij" %}
+                <li><a href="/categories/intellij" class="">Intellij ({{category[1].size}})</a></li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+    <ul>
+        {% for category in site.categories %}
+            {% if category[0] == "Algorithm" %}
+                <li><a href="/categories/algorithm" class="">Algorithm ({{category[1].size}})</a></li>
             {% endif %}
         {% endfor %}
     </ul>
