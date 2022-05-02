@@ -19,16 +19,16 @@
         {% endif %}
     {% endfor %}
     <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
-    <ul>
-        <!--github 카테고리 글들을 모아둔 페이지인 /categories/github 주소의 글로 링크 연결-->
-        <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
+    <!-- <ul>
+        github 카테고리 글들을 모아둔 페이지인 /categories/github 주소의 글로 링크 연결
+        category[1].size 로 해당 카테고리를 가진 글의 개수 표시
         {% for category in site.categories %}
             {% if category[0] == "Github" %}
                 <li><a href="/github/github-post" class="">Github Blog 생성 & 테마</a></li>
                 <li><a href="/github/github-color" class="">Github Blog css 수정</a></li>
             {% endif %}
         {% endfor %}
-    </ul>
+    </ul> -->
 
   <span class="nav__sub-title">Coding Test</span>
   <ul>
@@ -56,7 +56,7 @@
     <ul>
         {% for category in site.categories %}
             {% if category[0] == "Intellij" %}
-                <li><a href="/categories/intellij" class="">Intellijzxc ({{category[1].size}})</a></li>
+                <li><a href="/categories/intellij" class="">Intellij ({{category[1].size}})</a></li>
             {% endif %}
         {% endfor %}
     </ul>
@@ -81,5 +81,11 @@
             {% endif %}
         {% endfor %}
     </ul> -->
-
+    <ul>
+        {% for category in site.categories %}
+            {% if category[0] == "Github" %}
+                <li><a href="/categories/github" class="">Github ({{category[1].size}})</a></li>
+            {% endif %}
+        {% endfor %}
+    </ul>
 </nav>
