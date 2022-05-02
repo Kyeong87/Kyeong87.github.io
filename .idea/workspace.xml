@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0efe15ed-b116-4f77-bba2-d7153ff8f012" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/navigation.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/navigation.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/head/custom.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/head/custom.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/minimal-mistakes/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/minimal-mistakes/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/minimal-mistakes/_reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/minimal-mistakes/_reset.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/minimal-mistakes/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/minimal-mistakes/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +32,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -56,6 +50,12 @@
       <workItem from="1636532598744" duration="3404000" />
       <workItem from="1636592862736" duration="718000" />
       <workItem from="1636593714075" duration="11519000" />
+      <workItem from="1646977718296" duration="587000" />
+      <workItem from="1647398640519" duration="596000" />
+      <workItem from="1647493546060" duration="614000" />
+      <workItem from="1648089474525" duration="598000" />
+      <workItem from="1648616317547" duration="595000" />
+      <workItem from="1649125387891" duration="587000" />
     </task>
     <servers />
   </component>

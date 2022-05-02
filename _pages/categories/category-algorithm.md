@@ -1,5 +1,5 @@
 ---
-title: "Study"
+title: "Study  "
 layout: archive
 permalink: categories/algorithm
 author_profile: true
