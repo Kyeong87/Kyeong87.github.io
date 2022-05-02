@@ -1,4 +1,3 @@
-
 ---
 title:  "[LeetCode - Easy] Maximum Subarray"
 
