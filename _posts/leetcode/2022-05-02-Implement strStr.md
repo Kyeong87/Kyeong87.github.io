@@ -1,4 +1,21 @@
-Implement strStr().
+---
+title:  "[LeetCode - Easy] Implement strStr"
+
+categories:
+  - LeetCode
+tags:
+  - [Coding Test, LeetCode]
+
+toc: true
+toc_sticky: true
+ 
+date: 2022-05-02
+last_modified_at: 2022-05-02
+---
+
+# 문제 (Easy) - Implement strStr().
+
+
 
 Given two strings needle and haystack, return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
 

@@ -2,9 +2,9 @@
 title:  "[LeetCode - Easy] Longest Common Prefix"
 
 categories:
-  - leetcode
+  - LeetCode
 tags:
-  - [Coding Test, leetcode]
+  - [Coding Test, LeetCode]
 
 toc: true
 toc_sticky: true

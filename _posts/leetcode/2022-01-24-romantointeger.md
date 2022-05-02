@@ -2,9 +2,9 @@
 title:  "[LeetCode - Easy] Roman To Integer"
 
 categories:
-  - leetcode
+  - LeetCode
 tags:
-  - [Coding Test, leetcode]
+  - [Coding Test, LeetCode]
 
 toc: true
 toc_sticky: true
