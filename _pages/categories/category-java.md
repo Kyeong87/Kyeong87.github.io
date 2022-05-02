@@ -1,5 +1,5 @@
 ---
-title: "Study"
+title: "java"
 layout: archive
 permalink: categories/java
 author_profile: true
